@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# usernames and passwords for db connections
+database.csv
+
+# confidential fishery dependent data
+*confidential*
