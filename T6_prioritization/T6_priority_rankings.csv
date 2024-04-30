@@ -1,36 +1,36 @@
 fmp_area,species_name,species_group_code,mean_rank,tot_rank
-BSAI,Pacific sleeper shark,USRK,2.409090909090909,26.5
-BSAI,"octopus, North Pacific",OCTP,2.4166666666666665,29
-BSAI,"shark, salmon",USRK,2.3181818181818183,25.5
-BSAI,"shark, spiny dogfish",USRK,2.1363636363636362,23.5
-GOA,Pacific sleeper shark,USRK,2.409090909090909,26.5
-GOA,"greenling, atka mackerel",AMCK,2.090909090909091,23
-GOA,"octopus, North Pacific",OCTP,2.4545454545454546,27
-GOA,"rockfish, aurora",ROCK,1.8181818181818181,20
-GOA,"rockfish, blackgill",ROCK,1.7,17
-GOA,"rockfish, bocaccio",ROCK,1.8,18
-GOA,"rockfish, canary",DEM1,1.95,19.5
-GOA,"rockfish, canary",ROCK,1.95,19.5
-GOA,"rockfish, chilipepper",ROCK,1.8181818181818181,20
-GOA,"rockfish, china",DEM1,1.8636363636363635,20.5
-GOA,"rockfish, china",ROCK,2.05,20.5
-GOA,"rockfish, copper",DEM1,1.9545454545454546,21.5
-GOA,"rockfish, copper",ROCK,2.0555555555555554,18.5
-GOA,"rockfish, darkblotched",ROCK,1.7,17
-GOA,"rockfish, greenstripe",ROCK,1.9,19
-GOA,"rockfish, pygmy",ROCK,1.7,17
-GOA,"rockfish, quillback",DEM1,2.25,22.5
-GOA,"rockfish, quillback",ROCK,2.111111111111111,19
-GOA,"rockfish, rosethorn",DEM1,2.0555555555555554,18.5
-GOA,"rockfish, rosethorn",ROCK,2.05,20.5
-GOA,"rockfish, shortbelly",ROCK,2,12
-GOA,"rockfish, splitnose",ROCK,1.7,17
-GOA,"rockfish, stripetail",ROCK,1.7,17
-GOA,"rockfish, tiger",DEM1,1.95,19.5
-GOA,"rockfish, tiger",ROCK,2.05,20.5
-GOA,"rockfish, vermilion",ROCK,2.05,20.5
-GOA,"rockfish, widow",ROCK,2.1818181818181817,24
-GOA,"rockfish, yelloweye (red snapper)",ROCK,2.272727272727273,25
-GOA,"rockfish, yellowmouth",ROCK,2.05,20.5
-GOA,"rockfish, yellowtail",ROCK,2.090909090909091,23
-GOA,"shark, salmon",USRK,2.1,21
+GOA,"octopus, North Pacific",OCTP,2.545454545,28
+BSAI,"octopus, North Pacific",OCTP,2.5,30
+BSAI,Pacific sleeper shark,USRK,2.409090909,26.5
+BSAI,"shark, salmon",USRK,2.409090909,26.5
+GOA,Pacific sleeper shark,USRK,2.409090909,26.5
+GOA,"rockfish, quillback",DEM1,2.318181818,25.5
+GOA,"rockfish, yelloweye (red snapper)",ROCK,2.272727273,25
+GOA,"rockfish, quillback",ROCK,2.2,22
+GOA,"shark, salmon",USRK,2.2,22
+GOA,"greenling, atka mackerel",AMCK,2.181818182,24
+GOA,"rockfish, widow",ROCK,2.181818182,24
+GOA,"rockfish, copper",ROCK,2.15,21.5
+GOA,"rockfish, rosethorn",DEM1,2.15,21.5
+BSAI,"shark, spiny dogfish",USRK,2.136363636,23.5
+GOA,"rockfish, china",ROCK,2.136363636,23.5
+GOA,"rockfish, rosethorn",ROCK,2.136363636,23.5
+GOA,"rockfish, tiger",ROCK,2.136363636,23.5
+GOA,"rockfish, vermilion",ROCK,2.136363636,23.5
+GOA,"rockfish, yellowtail",ROCK,2.090909091,23
+GOA,"rockfish, canary",DEM1,2.045454545,22.5
+GOA,"rockfish, canary",ROCK,2.045454545,22.5
+GOA,"rockfish, tiger",DEM1,2.045454545,22.5
+GOA,"rockfish, yellowmouth",ROCK,2.045454545,22.5
+GOA,"rockfish, copper",DEM1,2.041666667,24.5
+GOA,"rockfish, shortbelly",ROCK,2,14
+GOA,"rockfish, china",DEM1,1.958333333,23.5
+GOA,"rockfish, aurora",ROCK,1.916666667,23
+GOA,"rockfish, greenstripe",ROCK,1.909090909,21
+GOA,"rockfish, chilipepper",ROCK,1.833333333,22
+GOA,"rockfish, blackgill",ROCK,1.818181818,20
+GOA,"rockfish, bocaccio",ROCK,1.818181818,20
+GOA,"rockfish, darkblotched",ROCK,1.727272727,19
+GOA,"rockfish, pygmy",ROCK,1.727272727,19
+GOA,"rockfish, splitnose",ROCK,1.727272727,19
+GOA,"rockfish, stripetail",ROCK,1.727272727,19
