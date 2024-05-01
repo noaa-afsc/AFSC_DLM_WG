@@ -77,7 +77,7 @@ OBScatch <- T6_catch %>%
 qual_dat <- read_sheet('https://docs.google.com/spreadsheets/d/1NMz_Bh4CMwULWgHfQ0xahNdhRe77gm2LhUdRyon_vco/edit?usp=sharing')
 qdat <- qual_dat %>% 
   select(species_name, species_group_code, agency_species_code, fmp_area, cycle_yrs, 
-         dominance, T6_HCR_data, PSA, edge_dist, marketable, Tier_jump)
+         dominance, T6_HCR_data, PSA, edge_dist, marketable, Tier_jump, complex)
 
 # summary table ----
 
