@@ -14,10 +14,10 @@ lapply(libs, library, character.only = TRUE)
 T6_metrics <- read_csv(paste0(getwd(), "/T6_prioritization/T6_priority_summary_metrics.csv")) %>% 
   select(!c(agency_species_code, cv_drate, mean_ntrip, cv_ntrip, max_ntrip, min_ntrip, cv_pobs_c))
 quan_met <- T6_metrics %>% 
-  select(!c(dominance, T6_HCR_data, edge_dist, marketable, Tier_jump)) %>% 
+  select(!c(dominance, T6_HCR_data, edge_dist, marketable, Tier_jump, complex)) %>% 
   pivot_longer(cols = !c(fmp_area, species_name, species_group_code), names_to = "Metric", values_to = "Value")
 qual_met <- T6_metrics %>% 
-  select(c(fmp_area, species_name, species_group_code,dominance, T6_HCR_data, edge_dist, marketable, Tier_jump)) %>% 
+  select(c(fmp_area, species_name, species_group_code,dominance, T6_HCR_data, edge_dist, marketable, Tier_jump, complex)) %>% 
   pivot_longer(cols = !c(fmp_area, species_name, species_group_code), names_to = "Metric", values_to = "Value")
 
 #weights
