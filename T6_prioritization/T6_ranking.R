@@ -72,6 +72,7 @@ qual2 <- qual_met %>%
 ranks <- wt_met %>% 
    group_by(fmp_area, species_name, species_group_code) %>% 
    summarise(mean_rank = mean(weight),
-             tot_rank = sum(weight))
+             tot_rank = sum(weight)) %>% 
+   arrange(desc(tot_rank))
  write_csv(ranks, paste0(getwd(), "/T6_prioritization/T6_priority_rankings.csv"))
  
