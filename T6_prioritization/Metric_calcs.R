@@ -18,10 +18,10 @@ n_trips <- T6_catch %>%
   group_by(year, fmp_area, agency_species_code, species_name, species_group_code) %>% 
   summarise(n_trip = length(catch_mt)) %>% 
   group_by(fmp_area, agency_species_code, species_name, species_group_code) %>% 
-  summarise(mean_ntrip = mean(n_trip),
-            cv_ntrip = sd(n_trip)/mean_ntrip,
-            max_ntrip = max(n_trip),
-            min_ntrip = min(n_trip)) %>% 
+  summarise(mean_ntrip = mean(n_trip, na.rm = T),
+            cv_ntrip = sd(n_trip, na.rm = T)/mean_ntrip,
+            max_ntrip = max(n_trip, na.rm = T),
+            min_ntrip = min(n_trip, na.rm = T)) %>% 
   mutate(cv_ntrip = replace_na(cv_ntrip, 0))
 
 # mean discard rate over last 10 yrs----
@@ -52,12 +52,14 @@ pOFL <- OFL %>%
   summarise(meanpOFL = mean(pOFL))
 
 # mean proportion of species specific OFL is caught each year
+# NOTE if the mean catch is ABOVE the OFL it is set = 1
 cOFL <- OFL %>% 
   left_join(tot_c) %>% 
   mutate(c_mt = replace_na(c_mt, 0),
          cpOFL = c_mt/subOFL) %>% 
   group_by(species_name, species_group_code, fmp_area) %>% 
-  summarise(meancpOFL = mean(cpOFL))
+  summarise(meancpOFL = mean(cpOFL)) %>% 
+  mutate(meancpOFL = if_else(meancpOFL > 1, 1, meancpOFL))
 
 # proportion of catch observed ----
 OBScatch <- T6_catch %>% 
@@ -77,7 +79,8 @@ OBScatch <- T6_catch %>%
 qual_dat <- read_sheet('https://docs.google.com/spreadsheets/d/1NMz_Bh4CMwULWgHfQ0xahNdhRe77gm2LhUdRyon_vco/edit?usp=sharing')
 qdat <- qual_dat %>% 
   select(species_name, species_group_code, agency_species_code, fmp_area, cycle_yrs, 
-         dominance, T6_HCR_data, PSA, edge_dist, marketable, Tier_jump, complex)
+         dominance, T6_HCR_data, PSA_new, edge_dist, marketable, Tier_jump, complex,
+         multi_tier, complex_lrg, Inflat_spec)
 
 # summary table ----
 
