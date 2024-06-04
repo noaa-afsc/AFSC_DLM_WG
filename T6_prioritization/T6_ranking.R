@@ -188,6 +188,6 @@ top10 <- ranks %>%
   select(Scenario, final_ranks, stock_name) %>% 
   pivot_wider(names_from = Scenario, values_from = stock_name) %>% 
   arrange(final_ranks)
-write_csv(ranks, paste0(getwd(), "/T6_prioritization/T6_priority_rankings.csv"))  
+write_csv(ranks, paste0(getwd(), "/T6_prioritization/T6_top10_rankings.csv"))  
 
  
