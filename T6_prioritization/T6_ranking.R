@@ -3,7 +3,7 @@
 
 # Setup ----
 # libraries and functions
-libs <- c("tidyverse", "janitor", "googlesheets4")
+libs <- c("tidyverse", "janitor", "googlesheets4", "cowplot")
 if(length(libs[which(libs %in% rownames(installed.packages()) == FALSE )]) > 0) {
   install.packages(libs[which(libs %in% rownames(installed.packages()) == FALSE)])}
 lapply(libs, library, character.only = TRUE)
@@ -15,7 +15,7 @@ T6_metrics <- read_csv(paste0(getwd(), "/T6_prioritization/T6_priority_summary_m
   select(!c(agency_species_code, cv_drate, mean_ntrip, cv_ntrip, max_ntrip, min_ntrip, cv_pobs_c))
 #scale everything between 0 and 1
 quan_met <- T6_metrics %>% 
-  select(!c(dominance, T6_HCR_data, edge_dist, marketable, Tier_jump, complex, multi_tier, complex_lrg, Inflat_spec)) %>% 
+  select(!c(dominance, T6_HCR_data, edge_dist, marketable, Tier_jump, complex, multi_tier, complex_lrg, Inflat_spec, Teleost)) %>% 
   mutate(cycle_yrs = cycle_yrs/4,
          PSA_new = PSA_new/2.8,
          meancpOFL_new = meancpOFL/max(meancpOFL, na.rm = T)) %>% 
@@ -25,30 +25,12 @@ quan_met <- T6_metrics %>%
   mutate(Value = replace_na(Value, 0))
 qual_met <- T6_metrics %>% 
   select(c(fmp_area, species_name, species_group_code, dominance, T6_HCR_data, edge_dist, 
-           marketable, Tier_jump, complex, multi_tier, complex_lrg, Inflat_spec)) %>% 
+           marketable, Tier_jump, complex, multi_tier, complex_lrg, Inflat_spec, Teleost)) %>% 
   pivot_longer(cols = !c(fmp_area, species_name, species_group_code), names_to = "Metric", values_to = "Value")
 
 #weights
-wt <- read_sheet('https://docs.google.com/spreadsheets/d/13ScMnmVnbBW1pCsG1zq5XBSWPYPJM9ymDLrIGse1VMk/edit?usp=sharing')
-
-#scale_val <- wt %>% 
-#  select(!c(type, yes_value, Description)) %>% 
-#  pivot_longer(!Metric, names_to = "Scenario", values_to = "wts") %>% 
-#  group_by(Scenario) %>% 
-#  summarise(scale_val = sum(wts))
-
-#new_wt <- wt %>% 
-#  select(!c(type, yes_value, Description)) %>% 
-#  pivot_longer(!Metric, names_to = "Scenario", values_to = "wts") %>% 
-#  left_join(scale_val) %>% 
-#  mutate(new_wt = wts/scale_val) %>% 
-#  select(!c(wts, scale_val)) %>% 
-#  pivot_wider(names_from = Scenario, values_from = new_wt)
-
-#wt <- wt %>% 
-#  select(c(Metric, type, yes_value, Description)) %>% 
-#  left_join(new_wt)
-
+wt <- read_sheet('https://docs.google.com/spreadsheets/d/13ScMnmVnbBW1pCsG1zq5XBSWPYPJM9ymDLrIGse1VMk/edit?usp=sharing') %>%
+  filter(wt_equal == 1)
 
 # Quantitative metric weighting----
 quan_wt <- wt %>% 
@@ -57,7 +39,7 @@ quan_wt <- wt %>%
   pivot_longer(cols = !Metric, names_to = "Scenario", values_to = "weighting")
 
 quan2 <- quan_met %>% 
-  full_join(quan_wt) %>% 
+  right_join(quan_wt) %>% 
   mutate(wtd_metric = Value * weighting)
 
 # Qualitative metric weighting-----
@@ -76,7 +58,7 @@ qual_wt <- wt %>%
   pivot_longer(cols = !Metric, names_to = "Scenario", values_to = "weighting")
 
 qual2 <- qual_met2 %>% 
-  full_join(qual_wt) %>% 
+  right_join(qual_wt) %>% 
   mutate(wtd_metric = Value * weighting)
 
 # Combine outputs----
@@ -84,6 +66,7 @@ qual2 <- qual_met2 %>%
    bind_rows(qual2)
  
 # Sensitivity to metrics----
+# skip this section
 base_dat <- wt_met %>%
   filter(Scenario == "wt_equal") %>% 
   select(fmp_area, species_name, species_group_code, Metric, Value) %>% 
@@ -128,8 +111,6 @@ for (i in 1:nrow(sens_scen)){
   df <- rbind(df, test_out)
 }
 
-
-
 base_rank <- df %>% 
   filter(scenario == "base") %>% 
   select(name, rank) %>% 
@@ -166,34 +147,47 @@ for (i in 1:length(unq_key)){ #this kicks out 35 grobs
          plot = lfig, dpi=300)
 } 
 
-
-
- 
-
 # Ranking ----  
 ranks <- wt_met %>% 
    group_by(fmp_area, species_name, species_group_code, Scenario) %>% 
-   summarise(tot_rank = sum(wtd_metric)) %>% 
+   summarise(tot_score = sum(wtd_metric)) %>% 
    group_by(Scenario) %>% 
-   mutate(ranks = order(order(tot_rank)))
+   mutate(rev_ranks = order(order(tot_score)),
+          final_ranks = 36 - rev_ranks,
+          top_stocks = if_else(final_ranks <=10, "Yes", "No")) #36 is the total number of stocks +1, this is a hack to get the ranks reversed
+write_csv(ranks, paste0(getwd(), "/T6_prioritization/T6_priority_rankings.csv"))  
  
  #these figs are kinda meaningless unless I scale everything to 0 - 1
+unq_key <- unique(ranks[,c("fmp_area", "species_name")])
  for (i in 1:nrow(unq_key)){ #this kicks out 8 grobs
    lfmp <- unq_key[i,1]
    lspec <- unq_key[i,2]
    loop_dat <- ranks %>%
      filter(fmp_area %in% lfmp &
               species_name %in% lspec)
-   lfig <- ggplot(loop_dat, aes(x = Scenario, y = tot_rank, fill = Scenario))+
+   lfig <- ggplot(loop_dat, aes(x = Scenario, y = tot_score, fill = Scenario))+
      geom_bar(stat = "identity")+
      facet_grid(.~fmp_area+species_name+species_group_code)+
-     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+     labs(x = "")+
+     theme(axis.text.x = element_blank())
+   lfig2 <- ggplot(loop_dat, aes(x = Scenario, y = final_ranks, fill = Scenario))+
+     geom_bar(stat = "identity")+
+     facet_grid(.~fmp_area+species_name+species_group_code)+
+     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+           strip.text.x = element_blank())
+   f3 <- plot_grid(lfig, lfig2, ncol = 1)
    ggsave(path = paste0(getwd(), "/T6_prioritization/Figures"), 
           paste0(lfmp, lspec, "_ranks.png"),
-          plot = lfig, dpi=600)
+          plot = f3, dpi=600)
  } 
  
- ukey <- 
- 
- write_csv(ranks, paste0(getwd(), "/T6_prioritization/T6_priority_rankings.csv"))
+# top 5 table
+top10 <- ranks %>% 
+  filter(top_stocks == "Yes") %>% 
+  mutate(stock_name = paste0(fmp_area, species_name, species_group_code)) %>% 
+  select(Scenario, final_ranks, stock_name) %>% 
+  pivot_wider(names_from = Scenario, values_from = stock_name) %>% 
+  arrange(final_ranks)
+write_csv(ranks, paste0(getwd(), "/T6_prioritization/T6_priority_rankings.csv"))  
+
  

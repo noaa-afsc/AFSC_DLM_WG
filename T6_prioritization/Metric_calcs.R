@@ -80,7 +80,7 @@ qual_dat <- read_sheet('https://docs.google.com/spreadsheets/d/1NMz_Bh4CMwULWgHf
 qdat <- qual_dat %>% 
   select(species_name, species_group_code, agency_species_code, fmp_area, cycle_yrs, 
          dominance, T6_HCR_data, PSA_new, edge_dist, marketable, Tier_jump, complex,
-         multi_tier, complex_lrg, Inflat_spec)
+         multi_tier, complex_lrg, Inflat_spec, Teleost)
 
 # summary table ----
 
