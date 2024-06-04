@@ -1,211 +1,211 @@
-fmp_area,species_name,species_group_code,Scenario,tot_score,rev_ranks,final_ranks,top_stocks
-BSAI,Pacific sleeper shark,USRK,wt_1,2.7758033303190213,32,4,Yes
-BSAI,Pacific sleeper shark,USRK,wt_2,2.6287126025122842,33,3,Yes
-BSAI,Pacific sleeper shark,USRK,wt_3,2.854392749885388,33,3,Yes
-BSAI,Pacific sleeper shark,USRK,wt_4,2.4279381137887563,34,2,Yes
-BSAI,Pacific sleeper shark,USRK,wt_5,2.2808473859820193,29,7,Yes
-BSAI,Pacific sleeper shark,USRK,wt_equal,4.360145794516982,32,4,Yes
-BSAI,"octopus, North Pacific",OCTP,wt_1,2.8785714285714286,33,3,Yes
-BSAI,"octopus, North Pacific",OCTP,wt_2,2.421831602144462,30,6,Yes
-BSAI,"octopus, North Pacific",OCTP,wt_3,2.596983013428601,30,6,Yes
-BSAI,"octopus, North Pacific",OCTP,wt_4,2.3253529266420845,33,3,Yes
-BSAI,"octopus, North Pacific",OCTP,wt_5,1.8686131002151178,25,11,No
-BSAI,"octopus, North Pacific",OCTP,wt_equal,4.165697420854053,31,5,Yes
-BSAI,"shark, salmon",USRK,wt_1,2.385985040063598,30,6,Yes
-BSAI,"shark, salmon",USRK,wt_2,2.5833897431895756,32,4,Yes
-BSAI,"shark, salmon",USRK,wt_3,2.8239303475798474,32,4,Yes
-BSAI,"shark, salmon",USRK,wt_4,2.2252279960168586,31,5,Yes
-BSAI,"shark, salmon",USRK,wt_5,2.422632699142836,30,6,Yes
-BSAI,"shark, salmon",USRK,wt_equal,4.428941903940238,33,3,Yes
-BSAI,"shark, spiny dogfish",USRK,wt_1,1.7710514990725283,27,9,Yes
-BSAI,"shark, spiny dogfish",USRK,wt_2,1.9737162652964453,27,9,Yes
-BSAI,"shark, spiny dogfish",USRK,wt_3,2.2068342321501873,27,9,Yes
-BSAI,"shark, spiny dogfish",USRK,wt_4,1.6055018490382287,25,11,No
-BSAI,"shark, spiny dogfish",USRK,wt_5,1.3081666152621456,16,20,No
-BSAI,"shark, spiny dogfish",USRK,wt_equal,3.1299043980078576,27,9,Yes
-GOA,Pacific sleeper shark,USRK,wt_1,3.3463293819521676,35,1,Yes
-GOA,Pacific sleeper shark,USRK,wt_2,3.496628604429882,35,1,Yes
-GOA,Pacific sleeper shark,USRK,wt_3,3.744488741372694,35,1,Yes
-GOA,Pacific sleeper shark,USRK,wt_4,2.669339130133837,35,1,Yes
-GOA,Pacific sleeper shark,USRK,wt_5,3.319638352611551,35,1,Yes
-GOA,Pacific sleeper shark,USRK,wt_equal,5.184697756631012,35,1,Yes
-GOA,"greenling, atka mackerel",AMCK,wt_1,2.032142857142857,28,8,Yes
-GOA,"greenling, atka mackerel",AMCK,wt_2,1.6128569397604773,21,15,No
-GOA,"greenling, atka mackerel",AMCK,wt_3,1.6451966151595903,21,15,No
-GOA,"greenling, atka mackerel",AMCK,wt_4,1.8548395738507804,28,8,Yes
-GOA,"greenling, atka mackerel",AMCK,wt_5,1.9355536564684004,27,9,Yes
-GOA,"greenling, atka mackerel",AMCK,wt_equal,2.8229297239745494,25,11,No
-GOA,"octopus, North Pacific",OCTP,wt_1,2.8785714285714286,34,2,Yes
-GOA,"octopus, North Pacific",OCTP,wt_2,2.477913848595575,31,5,Yes
-GOA,"octopus, North Pacific",OCTP,wt_3,2.5986767182106525,31,5,Yes
-GOA,"octopus, North Pacific",OCTP,wt_4,2.299005508198579,32,4,Yes
-GOA,"octopus, North Pacific",OCTP,wt_5,1.8983479282227258,26,10,Yes
-GOA,"octopus, North Pacific",OCTP,wt_equal,4.060307747080031,30,6,Yes
-GOA,"rockfish, aurora",ROCK,wt_1,0.7036142039129651,12,24,No
-GOA,"rockfish, aurora",ROCK,wt_2,0.7530756202421969,7,29,No
-GOA,"rockfish, aurora",ROCK,wt_3,0.7530756202421969,5,31,No
-GOA,"rockfish, aurora",ROCK,wt_4,0.728344912077581,5,31,No
-GOA,"rockfish, aurora",ROCK,wt_5,0.7778063284068127,5,31,No
-GOA,"rockfish, aurora",ROCK,wt_equal,0.8025798119129651,5,31,No
-GOA,"rockfish, blackgill",ROCK,wt_1,0.7036297807346907,13,23,No
-GOA,"rockfish, blackgill",ROCK,wt_2,0.7578201007673454,8,28,No
-GOA,"rockfish, blackgill",ROCK,wt_3,0.7578201007673454,6,30,No
-GOA,"rockfish, blackgill",ROCK,wt_4,0.7307249407510181,6,30,No
-GOA,"rockfish, blackgill",ROCK,wt_5,0.7849152607836727,6,30,No
-GOA,"rockfish, blackgill",ROCK,wt_equal,0.8120687729632622,6,30,No
-GOA,"rockfish, bocaccio",ROCK,wt_1,0.6964735859545166,11,25,No
-GOA,"rockfish, bocaccio",ROCK,wt_2,0.8723535485063588,13,23,No
-GOA,"rockfish, bocaccio",ROCK,wt_3,0.8723535485063588,9,27,No
-GOA,"rockfish, bocaccio",ROCK,wt_4,0.7844135672304378,8,28,No
-GOA,"rockfish, bocaccio",ROCK,wt_5,0.96029352978228,9,27,No
-GOA,"rockfish, bocaccio",ROCK,wt_equal,1.0482785255841462,7,29,No
-GOA,"rockfish, canary",DEM1,wt_1,1.7246548009225473,24,12,No
-GOA,"rockfish, canary",DEM1,wt_2,1.7851577918616597,24,12,No
-GOA,"rockfish, canary",DEM1,wt_3,1.8111376435693356,24,12,No
-GOA,"rockfish, canary",DEM1,wt_4,1.2808861480997793,23,13,No
-GOA,"rockfish, canary",DEM1,wt_5,1.8413891390388917,24,12,No
-GOA,"rockfish, canary",DEM1,wt_equal,1.9635207048397367,19,17,No
-GOA,"rockfish, canary",ROCK,wt_1,0.7109343517140038,15,21,No
-GOA,"rockfish, canary",ROCK,wt_2,0.871533811809253,12,24,No
-GOA,"rockfish, canary",ROCK,wt_3,0.9172704177236513,11,25,No
-GOA,"rockfish, canary",ROCK,wt_4,0.8369706876760267,10,26,No
-GOA,"rockfish, canary",ROCK,wt_5,0.9975701477712758,11,25,No
-GOA,"rockfish, canary",ROCK,wt_equal,1.215299761561813,9,27,No
-GOA,"rockfish, chilipepper",ROCK,wt_1,0.5321445243475218,2,34,No
-GOA,"rockfish, chilipepper",ROCK,wt_2,0.5738001317451895,2,34,No
-GOA,"rockfish, chilipepper",ROCK,wt_3,0.5738001317451895,2,34,No
-GOA,"rockfish, chilipepper",ROCK,wt_4,0.5529723280463557,2,34,No
-GOA,"rockfish, chilipepper",ROCK,wt_5,0.5946279354440233,2,34,No
-GOA,"rockfish, chilipepper",ROCK,wt_equal,0.6154574063475218,2,34,No
-GOA,"rockfish, china",DEM1,wt_1,1.6821633090665302,22,14,No
-GOA,"rockfish, china",DEM1,wt_2,1.712864336364434,23,13,No
-GOA,"rockfish, china",DEM1,wt_3,1.7368203482869833,23,13,No
-GOA,"rockfish, china",DEM1,wt_4,1.2214698346380313,21,15,No
-GOA,"rockfish, china",DEM1,wt_5,1.752170861935935,23,13,No
-GOA,"rockfish, china",DEM1,wt_equal,1.8429812918476363,18,18,No
-GOA,"rockfish, china",ROCK,wt_1,0.678736451902275,8,28,No
-GOA,"rockfish, china",ROCK,wt_2,1.1176264233867468,17,19,No
-GOA,"rockfish, china",ROCK,wt_3,1.2199023235738329,17,19,No
-GOA,"rockfish, china",ROCK,wt_4,1.000457337831597,17,19,No
-GOA,"rockfish, china",ROCK,wt_5,1.4393473093160687,18,18,No
-GOA,"rockfish, china",ROCK,wt_equal,1.9657850189504094,20,16,No
-GOA,"rockfish, copper",DEM1,wt_1,1.6967411076537935,23,13,No
-GOA,"rockfish, copper",DEM1,wt_2,1.7003524517831285,22,14,No
-GOA,"rockfish, copper",DEM1,wt_3,1.7256441530945297,22,14,No
-GOA,"rockfish, copper",DEM1,wt_4,1.2238384810298621,22,14,No
-GOA,"rockfish, copper",DEM1,wt_5,1.727449825159197,22,14,No
-GOA,"rockfish, copper",DEM1,wt_equal,1.8161574230975759,17,19,No
-GOA,"rockfish, copper",ROCK,wt_1,0.6857432612544638,10,26,No
-GOA,"rockfish, copper",ROCK,wt_2,1.1857287734843749,18,18,No
-GOA,"rockfish, copper",ROCK,wt_3,1.2079274267053224,16,20,No
-GOA,"rockfish, copper",ROCK,wt_4,0.957934670590367,15,21,No
-GOA,"rockfish, copper",ROCK,wt_5,1.457920182820278,19,17,No
-GOA,"rockfish, copper",ROCK,wt_equal,1.7745378741382545,16,20,No
-GOA,"rockfish, darkblotched",ROCK,wt_1,0.6649842730401954,5,31,No
-GOA,"rockfish, darkblotched",ROCK,wt_2,0.8117781722357472,10,26,No
-GOA,"rockfish, darkblotched",ROCK,wt_3,0.9339678387035524,12,24,No
-GOA,"rockfish, darkblotched",ROCK,wt_4,0.8605708891057765,12,24,No
-GOA,"rockfish, darkblotched",ROCK,wt_5,1.0073647883013284,12,24,No
-GOA,"rockfish, darkblotched",ROCK,wt_equal,1.4480292960570007,13,23,No
-GOA,"rockfish, greenstripe",ROCK,wt_1,0.6785997710507273,6,30,No
-GOA,"rockfish, greenstripe",ROCK,wt_2,0.7874891500463721,9,27,No
-GOA,"rockfish, greenstripe",ROCK,wt_3,0.9574492318307605,13,23,No
-GOA,"rockfish, greenstripe",ROCK,wt_4,0.9030045423329381,14,22,No
-GOA,"rockfish, greenstripe",ROCK,wt_5,1.011893921328583,13,23,No
-GOA,"rockfish, greenstripe",ROCK,wt_equal,1.576247198658869,14,22,No
-GOA,"rockfish, pygmy",ROCK,wt_1,0.5464335730425653,3,33,No
-GOA,"rockfish, pygmy",ROCK,wt_2,0.7083535190689018,4,32,No
-GOA,"rockfish, pygmy",ROCK,wt_3,0.8131235996899827,7,29,No
-GOA,"rockfish, pygmy",ROCK,wt_4,0.7321636266768146,7,29,No
-GOA,"rockfish, pygmy",ROCK,wt_5,0.8940835727031509,8,28,No
-GOA,"rockfish, pygmy",ROCK,wt_equal,1.2893587891935558,11,25,No
-GOA,"rockfish, quillback",DEM1,wt_1,2.2598889650887846,29,7,Yes
-GOA,"rockfish, quillback",DEM1,wt_2,2.399084624484997,29,7,Yes
-GOA,"rockfish, quillback",DEM1,wt_3,2.4539383060943227,29,7,Yes
-GOA,"rockfish, quillback",DEM1,wt_4,1.8843404763962164,29,7,Yes
-GOA,"rockfish, quillback",DEM1,wt_5,3.023536135792429,34,2,Yes
-GOA,"rockfish, quillback",DEM1,wt_equal,3.2925839754072967,28,8,Yes
-GOA,"rockfish, quillback",ROCK,wt_1,0.7288633860059526,16,20,No
-GOA,"rockfish, quillback",ROCK,wt_2,1.2269316930029763,20,16,No
-GOA,"rockfish, quillback",ROCK,wt_3,1.3394853434648413,19,17,No
-GOA,"rockfish, quillback",ROCK,wt_4,1.0904511899663294,19,17,No
-GOA,"rockfish, quillback",ROCK,wt_5,1.588519496963353,20,16,No
-GOA,"rockfish, quillback",ROCK,wt_equal,2.1790779878534123,22,14,No
-GOA,"rockfish, rosethorn",DEM1,wt_1,1.7429827330842442,26,10,Yes
-GOA,"rockfish, rosethorn",DEM1,wt_2,2.2429199379706937,28,8,Yes
-GOA,"rockfish, rosethorn",DEM1,wt_3,2.3932028863489183,28,8,Yes
-GOA,"rockfish, rosethorn",DEM1,wt_4,1.6432342839056937,26,10,Yes
-GOA,"rockfish, rosethorn",DEM1,wt_5,2.643171488792143,32,4,Yes
-GOA,"rockfish, rosethorn",DEM1,wt_equal,3.344114526597143,29,7,Yes
-GOA,"rockfish, rosethorn",ROCK,wt_1,0.7432008631035149,18,18,No
-GOA,"rockfish, rosethorn",ROCK,wt_2,1.2237407996516432,19,17,No
-GOA,"rockfish, rosethorn",ROCK,wt_3,1.3972282867344639,20,16,No
-GOA,"rockfish, rosethorn",ROCK,wt_4,1.1569583184603998,20,16,No
-GOA,"rockfish, rosethorn",ROCK,wt_5,1.637498255008528,21,15,No
-GOA,"rockfish, rosethorn",ROCK,wt_equal,2.3985744047774267,23,13,No
-GOA,"rockfish, shortbelly",ROCK,wt_1,0.4714285714285715,1,35,No
-GOA,"rockfish, shortbelly",ROCK,wt_2,0.4714285714285715,1,35,No
-GOA,"rockfish, shortbelly",ROCK,wt_3,0.4714285714285715,1,35,No
-GOA,"rockfish, shortbelly",ROCK,wt_4,0.4714285714285715,1,35,No
-GOA,"rockfish, shortbelly",ROCK,wt_5,0.4714285714285715,1,35,No
-GOA,"rockfish, shortbelly",ROCK,wt_equal,0.4714285714285715,1,35,No
-GOA,"rockfish, splitnose",ROCK,wt_1,0.679036578672861,9,27,No
-GOA,"rockfish, splitnose",ROCK,wt_2,0.738107112218919,6,30,No
-GOA,"rockfish, splitnose",ROCK,wt_3,0.8630257939523853,8,28,No
-GOA,"rockfish, splitnose",ROCK,wt_4,0.8334905271793563,9,27,No
-GOA,"rockfish, splitnose",ROCK,wt_5,0.8925610607254143,7,29,No
-GOA,"rockfish, splitnose",ROCK,wt_equal,1.2973175228002747,12,24,No
-GOA,"rockfish, stripetail",ROCK,wt_1,0.6787131409679223,7,29,No
-GOA,"rockfish, stripetail",ROCK,wt_2,0.7328417744343814,5,31,No
-GOA,"rockfish, stripetail",ROCK,wt_3,0.7336713609004003,4,32,No
-GOA,"rockfish, stripetail",ROCK,wt_4,0.7066070441671708,4,32,No
-GOA,"rockfish, stripetail",ROCK,wt_5,0.7607356776336298,4,32,No
-GOA,"rockfish, stripetail",ROCK,wt_equal,0.79043046616141,4,32,No
-GOA,"rockfish, tiger",DEM1,wt_1,1.7377739654387496,25,11,No
-GOA,"rockfish, tiger",DEM1,wt_2,1.9669370403996884,26,10,Yes
-GOA,"rockfish, tiger",DEM1,wt_3,2.032260630468433,26,10,Yes
-GOA,"rockfish, tiger",DEM1,wt_4,1.4176790929879635,24,12,No
-GOA,"rockfish, tiger",DEM1,wt_5,2.1468421679489023,28,8,Yes
-GOA,"rockfish, tiger",DEM1,wt_equal,2.459454155360069,24,12,No
-GOA,"rockfish, tiger",ROCK,wt_1,0.7364789344326379,17,19,No
-GOA,"rockfish, tiger",ROCK,wt_2,1.0806389553901017,16,20,No
-GOA,"rockfish, tiger",ROCK,wt_3,1.2570784902093972,18,18,No
-GOA,"rockfish, tiger",ROCK,wt_4,1.0849984797306653,18,18,No
-GOA,"rockfish, tiger",ROCK,wt_5,1.4291585006881289,17,19,No
-GOA,"rockfish, tiger",ROCK,wt_equal,2.1313217643430997,21,15,No
-GOA,"rockfish, vermilion",ROCK,wt_1,0.7072512254460583,14,22,No
-GOA,"rockfish, vermilion",ROCK,wt_2,0.8393139956098423,11,25,No
-GOA,"rockfish, vermilion",ROCK,wt_3,0.9171903224879902,10,26,No
-GOA,"rockfish, vermilion",ROCK,wt_4,0.851158937406098,11,25,No
-GOA,"rockfish, vermilion",ROCK,wt_5,0.9832217075698821,10,26,No
-GOA,"rockfish, vermilion",ROCK,wt_equal,1.2829904415894187,10,26,No
-GOA,"rockfish, widow",ROCK,wt_1,0.7793239003606993,19,17,No
-GOA,"rockfish, widow",ROCK,wt_2,1.0577643583080183,15,21,No
-GOA,"rockfish, widow",ROCK,wt_3,1.128643270088438,15,21,No
-GOA,"rockfish, widow",ROCK,wt_4,0.9894230411147784,16,20,No
-GOA,"rockfish, widow",ROCK,wt_5,1.2678634990620974,15,21,No
-GOA,"rockfish, widow",ROCK,wt_equal,1.6347586494520006,15,21,No
-GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_1,1.3824023519691306,21,15,No
-GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_2,1.8022398828445418,25,11,No
-GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_3,1.8915631844936962,25,11,No
-GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_4,1.6816444190559905,27,9,Yes
-GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_5,2.6014819499314017,31,5,Yes
-GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_equal,3.1153444008571296,26,10,Yes
-GOA,"rockfish, yellowmouth",ROCK,wt_1,0.6300318998576467,4,32,No
-GOA,"rockfish, yellowmouth",ROCK,wt_2,0.6793232797230994,3,33,No
-GOA,"rockfish, yellowmouth",ROCK,wt_3,0.6793232797230994,3,33,No
-GOA,"rockfish, yellowmouth",ROCK,wt_4,0.654677589790373,3,33,No
-GOA,"rockfish, yellowmouth",ROCK,wt_5,0.7039689696558257,3,33,No
-GOA,"rockfish, yellowmouth",ROCK,wt_equal,0.73007513087477,3,33,No
-GOA,"rockfish, yellowtail",ROCK,wt_1,0.8159512517456822,20,16,No
-GOA,"rockfish, yellowtail",ROCK,wt_2,0.9371245541608434,14,22,No
-GOA,"rockfish, yellowtail",ROCK,wt_3,0.9631235197291454,14,22,No
-GOA,"rockfish, yellowtail",ROCK,wt_4,0.9025368685215648,13,23,No
-GOA,"rockfish, yellowtail",ROCK,wt_5,1.023710170936726,14,22,No
-GOA,"rockfish, yellowtail",ROCK,wt_equal,1.1639592563091807,8,28,No
-GOA,"shark, salmon",USRK,wt_1,2.7104194564441704,31,5,Yes
-GOA,"shark, salmon",USRK,wt_2,3.2052097282220853,34,2,Yes
-GOA,"shark, salmon",USRK,wt_3,3.435341999912326,34,2,Yes
-GOA,"shark, salmon",USRK,wt_4,2.1879468640233686,30,6,Yes
-GOA,"shark, salmon",USRK,wt_5,2.6827371358012835,33,3,Yes
-GOA,"shark, salmon",USRK,wt_equal,4.630948543205134,34,2,Yes
+fmp_area,species_name,species_group_code,Scenario,tot_score,final_ranks,top_stocks
+BSAI,Pacific sleeper shark,USRK,wt_1,2.7758033303190213,4,Yes
+BSAI,Pacific sleeper shark,USRK,wt_2,2.6287126025122842,3,Yes
+BSAI,Pacific sleeper shark,USRK,wt_3,2.854392749885388,3,Yes
+BSAI,Pacific sleeper shark,USRK,wt_4,2.4279381137887563,2,Yes
+BSAI,Pacific sleeper shark,USRK,wt_5,2.2808473859820193,7,Yes
+BSAI,Pacific sleeper shark,USRK,wt_equal,4.360145794516982,4,Yes
+BSAI,"octopus, North Pacific",OCTP,wt_1,2.8785714285714286,3,Yes
+BSAI,"octopus, North Pacific",OCTP,wt_2,2.421831602144462,6,Yes
+BSAI,"octopus, North Pacific",OCTP,wt_3,2.596983013428601,6,Yes
+BSAI,"octopus, North Pacific",OCTP,wt_4,2.3253529266420845,3,Yes
+BSAI,"octopus, North Pacific",OCTP,wt_5,1.8686131002151178,11,No
+BSAI,"octopus, North Pacific",OCTP,wt_equal,4.165697420854053,5,Yes
+BSAI,"shark, salmon",USRK,wt_1,2.385985040063598,6,Yes
+BSAI,"shark, salmon",USRK,wt_2,2.5833897431895756,4,Yes
+BSAI,"shark, salmon",USRK,wt_3,2.8239303475798474,4,Yes
+BSAI,"shark, salmon",USRK,wt_4,2.2252279960168586,5,Yes
+BSAI,"shark, salmon",USRK,wt_5,2.422632699142836,6,Yes
+BSAI,"shark, salmon",USRK,wt_equal,4.428941903940238,3,Yes
+BSAI,"shark, spiny dogfish",USRK,wt_1,1.7710514990725283,9,Yes
+BSAI,"shark, spiny dogfish",USRK,wt_2,1.9737162652964453,9,Yes
+BSAI,"shark, spiny dogfish",USRK,wt_3,2.2068342321501873,9,Yes
+BSAI,"shark, spiny dogfish",USRK,wt_4,1.6055018490382287,11,No
+BSAI,"shark, spiny dogfish",USRK,wt_5,1.3081666152621456,20,No
+BSAI,"shark, spiny dogfish",USRK,wt_equal,3.1299043980078576,9,Yes
+GOA,Pacific sleeper shark,USRK,wt_1,3.3463293819521676,1,Yes
+GOA,Pacific sleeper shark,USRK,wt_2,3.496628604429882,1,Yes
+GOA,Pacific sleeper shark,USRK,wt_3,3.744488741372694,1,Yes
+GOA,Pacific sleeper shark,USRK,wt_4,2.669339130133837,1,Yes
+GOA,Pacific sleeper shark,USRK,wt_5,3.319638352611551,1,Yes
+GOA,Pacific sleeper shark,USRK,wt_equal,5.184697756631012,1,Yes
+GOA,"greenling, atka mackerel",AMCK,wt_1,2.032142857142857,8,Yes
+GOA,"greenling, atka mackerel",AMCK,wt_2,1.6128569397604773,15,No
+GOA,"greenling, atka mackerel",AMCK,wt_3,1.6451966151595903,15,No
+GOA,"greenling, atka mackerel",AMCK,wt_4,1.8548395738507804,8,Yes
+GOA,"greenling, atka mackerel",AMCK,wt_5,1.9355536564684004,9,Yes
+GOA,"greenling, atka mackerel",AMCK,wt_equal,2.8229297239745494,11,No
+GOA,"octopus, North Pacific",OCTP,wt_1,2.8785714285714286,2,Yes
+GOA,"octopus, North Pacific",OCTP,wt_2,2.477913848595575,5,Yes
+GOA,"octopus, North Pacific",OCTP,wt_3,2.5986767182106525,5,Yes
+GOA,"octopus, North Pacific",OCTP,wt_4,2.299005508198579,4,Yes
+GOA,"octopus, North Pacific",OCTP,wt_5,1.8983479282227258,10,Yes
+GOA,"octopus, North Pacific",OCTP,wt_equal,4.060307747080031,6,Yes
+GOA,"rockfish, aurora",ROCK,wt_1,0.7036142039129651,24,No
+GOA,"rockfish, aurora",ROCK,wt_2,0.7530756202421969,29,No
+GOA,"rockfish, aurora",ROCK,wt_3,0.7530756202421969,31,No
+GOA,"rockfish, aurora",ROCK,wt_4,0.728344912077581,31,No
+GOA,"rockfish, aurora",ROCK,wt_5,0.7778063284068127,31,No
+GOA,"rockfish, aurora",ROCK,wt_equal,0.8025798119129651,31,No
+GOA,"rockfish, blackgill",ROCK,wt_1,0.7036297807346907,23,No
+GOA,"rockfish, blackgill",ROCK,wt_2,0.7578201007673454,28,No
+GOA,"rockfish, blackgill",ROCK,wt_3,0.7578201007673454,30,No
+GOA,"rockfish, blackgill",ROCK,wt_4,0.7307249407510181,30,No
+GOA,"rockfish, blackgill",ROCK,wt_5,0.7849152607836727,30,No
+GOA,"rockfish, blackgill",ROCK,wt_equal,0.8120687729632622,30,No
+GOA,"rockfish, bocaccio",ROCK,wt_1,0.6964735859545166,25,No
+GOA,"rockfish, bocaccio",ROCK,wt_2,0.8723535485063588,23,No
+GOA,"rockfish, bocaccio",ROCK,wt_3,0.8723535485063588,27,No
+GOA,"rockfish, bocaccio",ROCK,wt_4,0.7844135672304378,28,No
+GOA,"rockfish, bocaccio",ROCK,wt_5,0.96029352978228,27,No
+GOA,"rockfish, bocaccio",ROCK,wt_equal,1.0482785255841462,29,No
+GOA,"rockfish, canary",DEM1,wt_1,1.7246548009225473,12,No
+GOA,"rockfish, canary",DEM1,wt_2,1.7851577918616597,12,No
+GOA,"rockfish, canary",DEM1,wt_3,1.8111376435693356,12,No
+GOA,"rockfish, canary",DEM1,wt_4,1.2808861480997793,13,No
+GOA,"rockfish, canary",DEM1,wt_5,1.8413891390388917,12,No
+GOA,"rockfish, canary",DEM1,wt_equal,1.9635207048397367,17,No
+GOA,"rockfish, canary",ROCK,wt_1,0.7109343517140038,21,No
+GOA,"rockfish, canary",ROCK,wt_2,0.871533811809253,24,No
+GOA,"rockfish, canary",ROCK,wt_3,0.9172704177236513,25,No
+GOA,"rockfish, canary",ROCK,wt_4,0.8369706876760267,26,No
+GOA,"rockfish, canary",ROCK,wt_5,0.9975701477712758,25,No
+GOA,"rockfish, canary",ROCK,wt_equal,1.215299761561813,27,No
+GOA,"rockfish, chilipepper",ROCK,wt_1,0.5321445243475218,34,No
+GOA,"rockfish, chilipepper",ROCK,wt_2,0.5738001317451895,34,No
+GOA,"rockfish, chilipepper",ROCK,wt_3,0.5738001317451895,34,No
+GOA,"rockfish, chilipepper",ROCK,wt_4,0.5529723280463557,34,No
+GOA,"rockfish, chilipepper",ROCK,wt_5,0.5946279354440233,34,No
+GOA,"rockfish, chilipepper",ROCK,wt_equal,0.6154574063475218,34,No
+GOA,"rockfish, china",DEM1,wt_1,1.6821633090665302,14,No
+GOA,"rockfish, china",DEM1,wt_2,1.712864336364434,13,No
+GOA,"rockfish, china",DEM1,wt_3,1.7368203482869833,13,No
+GOA,"rockfish, china",DEM1,wt_4,1.2214698346380313,15,No
+GOA,"rockfish, china",DEM1,wt_5,1.752170861935935,13,No
+GOA,"rockfish, china",DEM1,wt_equal,1.8429812918476363,18,No
+GOA,"rockfish, china",ROCK,wt_1,0.678736451902275,28,No
+GOA,"rockfish, china",ROCK,wt_2,1.1176264233867468,19,No
+GOA,"rockfish, china",ROCK,wt_3,1.2199023235738329,19,No
+GOA,"rockfish, china",ROCK,wt_4,1.000457337831597,19,No
+GOA,"rockfish, china",ROCK,wt_5,1.4393473093160687,18,No
+GOA,"rockfish, china",ROCK,wt_equal,1.9657850189504094,16,No
+GOA,"rockfish, copper",DEM1,wt_1,1.6967411076537935,13,No
+GOA,"rockfish, copper",DEM1,wt_2,1.7003524517831285,14,No
+GOA,"rockfish, copper",DEM1,wt_3,1.7256441530945297,14,No
+GOA,"rockfish, copper",DEM1,wt_4,1.2238384810298621,14,No
+GOA,"rockfish, copper",DEM1,wt_5,1.727449825159197,14,No
+GOA,"rockfish, copper",DEM1,wt_equal,1.8161574230975759,19,No
+GOA,"rockfish, copper",ROCK,wt_1,0.6857432612544638,26,No
+GOA,"rockfish, copper",ROCK,wt_2,1.1857287734843749,18,No
+GOA,"rockfish, copper",ROCK,wt_3,1.2079274267053224,20,No
+GOA,"rockfish, copper",ROCK,wt_4,0.957934670590367,21,No
+GOA,"rockfish, copper",ROCK,wt_5,1.457920182820278,17,No
+GOA,"rockfish, copper",ROCK,wt_equal,1.7745378741382545,20,No
+GOA,"rockfish, darkblotched",ROCK,wt_1,0.6649842730401954,31,No
+GOA,"rockfish, darkblotched",ROCK,wt_2,0.8117781722357472,26,No
+GOA,"rockfish, darkblotched",ROCK,wt_3,0.9339678387035524,24,No
+GOA,"rockfish, darkblotched",ROCK,wt_4,0.8605708891057765,24,No
+GOA,"rockfish, darkblotched",ROCK,wt_5,1.0073647883013284,24,No
+GOA,"rockfish, darkblotched",ROCK,wt_equal,1.4480292960570007,23,No
+GOA,"rockfish, greenstripe",ROCK,wt_1,0.6785997710507273,30,No
+GOA,"rockfish, greenstripe",ROCK,wt_2,0.7874891500463721,27,No
+GOA,"rockfish, greenstripe",ROCK,wt_3,0.9574492318307605,23,No
+GOA,"rockfish, greenstripe",ROCK,wt_4,0.9030045423329381,22,No
+GOA,"rockfish, greenstripe",ROCK,wt_5,1.011893921328583,23,No
+GOA,"rockfish, greenstripe",ROCK,wt_equal,1.576247198658869,22,No
+GOA,"rockfish, pygmy",ROCK,wt_1,0.5464335730425653,33,No
+GOA,"rockfish, pygmy",ROCK,wt_2,0.7083535190689018,32,No
+GOA,"rockfish, pygmy",ROCK,wt_3,0.8131235996899827,29,No
+GOA,"rockfish, pygmy",ROCK,wt_4,0.7321636266768146,29,No
+GOA,"rockfish, pygmy",ROCK,wt_5,0.8940835727031509,28,No
+GOA,"rockfish, pygmy",ROCK,wt_equal,1.2893587891935558,25,No
+GOA,"rockfish, quillback",DEM1,wt_1,2.2598889650887846,7,Yes
+GOA,"rockfish, quillback",DEM1,wt_2,2.399084624484997,7,Yes
+GOA,"rockfish, quillback",DEM1,wt_3,2.4539383060943227,7,Yes
+GOA,"rockfish, quillback",DEM1,wt_4,1.8843404763962164,7,Yes
+GOA,"rockfish, quillback",DEM1,wt_5,3.023536135792429,2,Yes
+GOA,"rockfish, quillback",DEM1,wt_equal,3.2925839754072967,8,Yes
+GOA,"rockfish, quillback",ROCK,wt_1,0.7288633860059526,20,No
+GOA,"rockfish, quillback",ROCK,wt_2,1.2269316930029763,16,No
+GOA,"rockfish, quillback",ROCK,wt_3,1.3394853434648413,17,No
+GOA,"rockfish, quillback",ROCK,wt_4,1.0904511899663294,17,No
+GOA,"rockfish, quillback",ROCK,wt_5,1.588519496963353,16,No
+GOA,"rockfish, quillback",ROCK,wt_equal,2.1790779878534123,14,No
+GOA,"rockfish, rosethorn",DEM1,wt_1,1.7429827330842442,10,Yes
+GOA,"rockfish, rosethorn",DEM1,wt_2,2.2429199379706937,8,Yes
+GOA,"rockfish, rosethorn",DEM1,wt_3,2.3932028863489183,8,Yes
+GOA,"rockfish, rosethorn",DEM1,wt_4,1.6432342839056937,10,Yes
+GOA,"rockfish, rosethorn",DEM1,wt_5,2.643171488792143,4,Yes
+GOA,"rockfish, rosethorn",DEM1,wt_equal,3.344114526597143,7,Yes
+GOA,"rockfish, rosethorn",ROCK,wt_1,0.7432008631035149,18,No
+GOA,"rockfish, rosethorn",ROCK,wt_2,1.2237407996516432,17,No
+GOA,"rockfish, rosethorn",ROCK,wt_3,1.3972282867344639,16,No
+GOA,"rockfish, rosethorn",ROCK,wt_4,1.1569583184603998,16,No
+GOA,"rockfish, rosethorn",ROCK,wt_5,1.637498255008528,15,No
+GOA,"rockfish, rosethorn",ROCK,wt_equal,2.3985744047774267,13,No
+GOA,"rockfish, shortbelly",ROCK,wt_1,0.4714285714285715,35,No
+GOA,"rockfish, shortbelly",ROCK,wt_2,0.4714285714285715,35,No
+GOA,"rockfish, shortbelly",ROCK,wt_3,0.4714285714285715,35,No
+GOA,"rockfish, shortbelly",ROCK,wt_4,0.4714285714285715,35,No
+GOA,"rockfish, shortbelly",ROCK,wt_5,0.4714285714285715,35,No
+GOA,"rockfish, shortbelly",ROCK,wt_equal,0.4714285714285715,35,No
+GOA,"rockfish, splitnose",ROCK,wt_1,0.679036578672861,27,No
+GOA,"rockfish, splitnose",ROCK,wt_2,0.738107112218919,30,No
+GOA,"rockfish, splitnose",ROCK,wt_3,0.8630257939523853,28,No
+GOA,"rockfish, splitnose",ROCK,wt_4,0.8334905271793563,27,No
+GOA,"rockfish, splitnose",ROCK,wt_5,0.8925610607254143,29,No
+GOA,"rockfish, splitnose",ROCK,wt_equal,1.2973175228002747,24,No
+GOA,"rockfish, stripetail",ROCK,wt_1,0.6787131409679223,29,No
+GOA,"rockfish, stripetail",ROCK,wt_2,0.7328417744343814,31,No
+GOA,"rockfish, stripetail",ROCK,wt_3,0.7336713609004003,32,No
+GOA,"rockfish, stripetail",ROCK,wt_4,0.7066070441671708,32,No
+GOA,"rockfish, stripetail",ROCK,wt_5,0.7607356776336298,32,No
+GOA,"rockfish, stripetail",ROCK,wt_equal,0.79043046616141,32,No
+GOA,"rockfish, tiger",DEM1,wt_1,1.7377739654387496,11,No
+GOA,"rockfish, tiger",DEM1,wt_2,1.9669370403996884,10,Yes
+GOA,"rockfish, tiger",DEM1,wt_3,2.032260630468433,10,Yes
+GOA,"rockfish, tiger",DEM1,wt_4,1.4176790929879635,12,No
+GOA,"rockfish, tiger",DEM1,wt_5,2.1468421679489023,8,Yes
+GOA,"rockfish, tiger",DEM1,wt_equal,2.459454155360069,12,No
+GOA,"rockfish, tiger",ROCK,wt_1,0.7364789344326379,19,No
+GOA,"rockfish, tiger",ROCK,wt_2,1.0806389553901017,20,No
+GOA,"rockfish, tiger",ROCK,wt_3,1.2570784902093972,18,No
+GOA,"rockfish, tiger",ROCK,wt_4,1.0849984797306653,18,No
+GOA,"rockfish, tiger",ROCK,wt_5,1.4291585006881289,19,No
+GOA,"rockfish, tiger",ROCK,wt_equal,2.1313217643430997,15,No
+GOA,"rockfish, vermilion",ROCK,wt_1,0.7072512254460583,22,No
+GOA,"rockfish, vermilion",ROCK,wt_2,0.8393139956098423,25,No
+GOA,"rockfish, vermilion",ROCK,wt_3,0.9171903224879902,26,No
+GOA,"rockfish, vermilion",ROCK,wt_4,0.851158937406098,25,No
+GOA,"rockfish, vermilion",ROCK,wt_5,0.9832217075698821,26,No
+GOA,"rockfish, vermilion",ROCK,wt_equal,1.2829904415894187,26,No
+GOA,"rockfish, widow",ROCK,wt_1,0.7793239003606993,17,No
+GOA,"rockfish, widow",ROCK,wt_2,1.0577643583080183,21,No
+GOA,"rockfish, widow",ROCK,wt_3,1.128643270088438,21,No
+GOA,"rockfish, widow",ROCK,wt_4,0.9894230411147784,20,No
+GOA,"rockfish, widow",ROCK,wt_5,1.2678634990620974,21,No
+GOA,"rockfish, widow",ROCK,wt_equal,1.6347586494520006,21,No
+GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_1,1.3824023519691306,15,No
+GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_2,1.8022398828445418,11,No
+GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_3,1.8915631844936962,11,No
+GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_4,1.6816444190559905,9,Yes
+GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_5,2.6014819499314017,5,Yes
+GOA,"rockfish, yelloweye (red snapper)",ROCK,wt_equal,3.1153444008571296,10,Yes
+GOA,"rockfish, yellowmouth",ROCK,wt_1,0.6300318998576467,32,No
+GOA,"rockfish, yellowmouth",ROCK,wt_2,0.6793232797230994,33,No
+GOA,"rockfish, yellowmouth",ROCK,wt_3,0.6793232797230994,33,No
+GOA,"rockfish, yellowmouth",ROCK,wt_4,0.654677589790373,33,No
+GOA,"rockfish, yellowmouth",ROCK,wt_5,0.7039689696558257,33,No
+GOA,"rockfish, yellowmouth",ROCK,wt_equal,0.73007513087477,33,No
+GOA,"rockfish, yellowtail",ROCK,wt_1,0.8159512517456822,16,No
+GOA,"rockfish, yellowtail",ROCK,wt_2,0.9371245541608434,22,No
+GOA,"rockfish, yellowtail",ROCK,wt_3,0.9631235197291454,22,No
+GOA,"rockfish, yellowtail",ROCK,wt_4,0.9025368685215648,23,No
+GOA,"rockfish, yellowtail",ROCK,wt_5,1.023710170936726,22,No
+GOA,"rockfish, yellowtail",ROCK,wt_equal,1.1639592563091807,28,No
+GOA,"shark, salmon",USRK,wt_1,2.7104194564441704,5,Yes
+GOA,"shark, salmon",USRK,wt_2,3.2052097282220853,2,Yes
+GOA,"shark, salmon",USRK,wt_3,3.435341999912326,2,Yes
+GOA,"shark, salmon",USRK,wt_4,2.1879468640233686,6,Yes
+GOA,"shark, salmon",USRK,wt_5,2.6827371358012835,3,Yes
+GOA,"shark, salmon",USRK,wt_equal,4.630948543205134,2,Yes

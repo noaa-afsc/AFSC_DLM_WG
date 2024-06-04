@@ -154,7 +154,9 @@ ranks <- wt_met %>%
    group_by(Scenario) %>% 
    mutate(rev_ranks = order(order(tot_score)),
           final_ranks = 36 - rev_ranks,
-          top_stocks = if_else(final_ranks <=10, "Yes", "No")) #36 is the total number of stocks +1, this is a hack to get the ranks reversed
+          top_stocks = if_else(final_ranks <=10, "Yes", "No")) %>%  #36 is the total number of stocks +1, this is a hack to get the ranks reversed
+  select(!rev_ranks)
+
 write_csv(ranks, paste0(getwd(), "/T6_prioritization/T6_priority_rankings.csv"))  
  
  #these figs are kinda meaningless unless I scale everything to 0 - 1
